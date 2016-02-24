@@ -1,2 +1,0 @@
-# linemaker
-graphics line algorithm
