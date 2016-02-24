@@ -21,7 +21,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 
 	// If end point has a higher y-value than start point
 	if ( y1 > y0 ) {
-		int d = (2 * A) - B;
+		int d = ( 2 * A ) - B;
 		
 		if ( A > B ){
 			while ( y <= y1 ) {
@@ -52,7 +52,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 
 		if ( (-1*A) > B ){
 
-      while( y>=y1 ){
+      while( y >= y1 ){
         plot( s, c, x, y);
         if( d > 0 ){
           x++;
